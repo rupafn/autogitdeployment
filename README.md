@@ -21,7 +21,11 @@ How to automatically deploy project to server on pushing to git
 <li>	<code>chmod +x post-receive</code> </li>
 
 <li>	go to working git folder and type <code>git remote add beta ssh://user@mydomain.com/var/repo/beta.git</code> </li>
-<li> change use permission of deploy folder <code> sudo chown -R www-data:www-data imagenelabs-wp/</code></li>
+<li> change use permission of deploy folder <code> sudo chown -R www-data:www-data imagenelabs-wp/</code>
+
+  <br>
+  <code>chown -R <username>:<groupname> <folder></code>
+</li>
 
 </ul>
 
