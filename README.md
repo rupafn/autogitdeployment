@@ -20,7 +20,7 @@ How to automatically deploy project to server on pushing to git
 
 <li>	chmod +x post-receive </li>
 
-<li>	git remote add beta ssh://user@mydomain.com/var/repo/beta.git </li>
+<li>	go to working git folder and type <code>git remote add beta ssh://user@mydomain.com/var/repo/beta.git</code> </li>
 
 </ul>
 
