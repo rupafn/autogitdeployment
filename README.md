@@ -2,7 +2,7 @@
 How to automatically deploy project to server on pushing to git
 
 
-<ul>Go to server create site.git (mkdir site.git)</li>
+<ul>Go to server create site.git (<code>mkdir site.git</code>)</li>
 
 
 <li>	<code>Cd site.git</code> </li>
